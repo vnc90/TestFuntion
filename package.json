@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "test web3 by etherjs",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web3"
+  ],
+  "author": "VNC",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.6.3",
+    "nodemon": "^3.0.1"
+  }
+}
